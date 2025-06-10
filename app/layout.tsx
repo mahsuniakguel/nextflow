@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Montserrat as FontRat } from "next/font/google";
 import "./globals.css";
-import Header from "@/components/ui/Header";
+
 
 const fontRat = FontRat({
   variable: "--font-geist-sans",
@@ -24,8 +24,7 @@ export default function RootLayout({
       <body
         className={`${fontRat.variable} font-rat antialiased`}
       >
-        <Header />
-        {children}
+        <main>{children}</main>
       </body>
     </html>
   );
