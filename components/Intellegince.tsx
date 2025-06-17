@@ -1,6 +1,9 @@
+import Reveal from "./Reveal";
+
 export default function Intelligence() {
     return (
-      <section className="bg-[#0D0D0D] text-white py-20 px-8">
+      <Reveal>
+      <section className="bg-[#0D0D0D] text-white py-40 px-8">
         <div className="max-w-6xl mx-auto flex flex-col lg:flex-row gap-12 items-center">
           <div className="flex-1">
             <h2 className="text-4xl md:text-5xl font-bold leading-tight mb-6">
@@ -19,5 +22,6 @@ export default function Intelligence() {
           </div>
         </div>
       </section>
+      </Reveal>
     );
   }

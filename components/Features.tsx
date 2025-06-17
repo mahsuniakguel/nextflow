@@ -1,9 +1,12 @@
+import Reveal from "./Reveal";
+
 export default function Features() {
     return (
       <section className="bg-white py-20 px-8">
         <div className="max-w-6xl mx-auto space-y-24">
   
           {/* Schulungen */}
+          <Reveal>
           <div className="flex flex-col lg:flex-row items-center gap-12">
             <div className="flex-1">
               <h3 className="text-2xl font-bold mb-4">Schulungen für Ihre Teams</h3>
@@ -16,8 +19,10 @@ export default function Features() {
               <div className="bg-gray-300 rounded-xl h-64 w-full"></div>
             </div>
           </div>
+          </Reveal>
   
           {/* Beratung */}
+          <Reveal>
           <div className="flex flex-col-reverse lg:flex-row items-center gap-12">
             <div className="flex-1">
               <div className="bg-gray-300 rounded-xl h-64 w-full"></div>
@@ -32,8 +37,10 @@ export default function Features() {
               </p>
             </div>
           </div>
+          </Reveal>
   
           {/* KI-Agenten */}
+          <Reveal>
           <div className="flex flex-col lg:flex-row items-center gap-12">
             <div className="flex-1">
               <h3 className="text-2xl font-bold mb-4">KI-Agenten und reibungslose Workflows</h3>
@@ -48,6 +55,7 @@ export default function Features() {
               <div className="bg-gray-300 rounded-xl h-64 w-full"></div>
             </div>
           </div>
+          </Reveal>
   
         </div>
       </section>
