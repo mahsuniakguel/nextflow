@@ -2,7 +2,7 @@ import Reveal from "./Reveal";
 
 export default function Hero() {
     return (
-      <section className="bg-[#f4f4f4] py-20 px-8">
+      <section className="bg-[#ffff] py-20 px-8">
         <div className="max-w-6xl mx-auto flex flex-col lg:flex-row items-center justify-between gap-12">
           <div className="flex-1">
           <Reveal>
@@ -19,12 +19,10 @@ export default function Hero() {
           </Reveal>
           </div>
   
-          <div className="flex-1 grid grid-cols-2 gap-4">
-            <div className="bg-gray-300 h-48 rounded-xl"></div>
-            <div className="bg-gray-300 h-48 rounded-xl"></div>
-            <div className="bg-gray-300 h-48 rounded-xl"></div>
-            <div className="bg-gray-300 h-48 rounded-xl"></div>
+          <div className="flex-1">
+            <div className="bg-gray-300 h-[400px] w-full rounded-2xl"></div>
           </div>
+
         </div>
       </section>
     );
