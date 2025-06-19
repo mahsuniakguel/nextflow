@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
-import { Montserrat as FontRat } from "next/font/google";
+import { Montserrat as FontMontserrat } from "next/font/google";
 import "./globals.css";
 
 
-const fontRat = FontRat({
-  variable: "--font-geist-sans",
+const fontMontserrat = FontMontserrat({
+  variable: "--font-montserrat",
   subsets: ["latin"],
   weight: ["200", "300", "400", "500", "600", "700", "800", "900"],
 });
@@ -22,7 +22,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${fontRat.variable} font-rat antialiased`}
+        className={`${fontMontserrat.variable} font-montserrat antialiased`}
       >
         <main>{children}</main>
       </body>

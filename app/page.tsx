@@ -1,6 +1,6 @@
 import Navbar from '@/components/Navbar'
 import Hero from '@/components/Hero'
-import Intelligence from '@/components/Intellegince'
+import Intelligence from '@/components/Intelligence'
 import Features from '@/components/Features'
 import Footer from '@/components/Footer'
 
