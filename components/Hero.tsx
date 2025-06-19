@@ -3,7 +3,16 @@ import Reveal from "./Reveal";
 
 export default function Hero() {
   return (
-    <section className="relative bg-[#ffff] overflow-hidden py-36 px-6 md:px-12">
+    <section className="relative bg-[#ffff] w-full h-screen overflow-hidden py-40 px-6 md:px-12">
+        <video
+          autoPlay
+          muted
+          loop
+          playsInline
+          className="absolute inset-0 w-full h-full object-cover z-0"
+        >
+          <source src="/videos/hero-video7.mp4" type="video/mp4" />
+        </video>
       <div className="absolute inset-0 z-0">
         <div className="w-full h-full bg-[url('/bg-pattern.svg')] bg-cover bg-center opacity-10 animate-pulse"></div>
       </div>
