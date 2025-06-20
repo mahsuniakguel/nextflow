@@ -2,9 +2,11 @@ import Reveal from "./Reveal";
 
 export default function Intelligence() {
   return (
-    <section className="bg-[#0D0D0D] text-white min-h-screen flex items-center px-6 md:px-12">
+    <section className="bg-[#fff] min-h-screen flex flex-col justify-center -mt-30 px-6 md:px-12">
       <div className="max-w-7xl mx-auto w-full">
+        {/* Textbereich im Grid */}
         <div className="grid md:grid-cols-2 gap-16 items-center">
+          {/* Linker Bereich */}
           <div>
             <Reveal>
               <h2 className="text-4xl md:text-6xl font-extrabold leading-tight">
@@ -14,9 +16,10 @@ export default function Intelligence() {
             </Reveal>
           </div>
 
+          {/* Rechter Bereich */}
           <div>
             <Reveal>
-              <div className="space-y-4 text-base md:text-lg text-gray-300">
+              <div className="space-y-4 text-base md:text-lg text-gray-600">
                 <p>
                   <strong>KI ist kein Trend</strong>, sondern der größte Business-Shift unserer Zeit. <br />
                   Über 80 % der Unternehmen setzen sie bereits ein.
@@ -33,16 +36,14 @@ export default function Intelligence() {
           </div>
         </div>
 
-        {/* Logo Strip */}
-        <div className="mt-30 flex justify-center">
-          <div className="whitespace-nowrap flex gap-25">
-            <img src="/logos/bmw.png" alt="BMW Logo" className="h-12 object-contain" />
-            <img src="/logos/bosch.png" alt="Bosch Logo" className="h-12 object-contain" />
-            <img src="/logos/db.png" alt="Deutsche Bahn Logo" className="h-12 object-contain" />
-            <img src="/logos/lufthansa.png" alt="Lufthansa Logo" className="h-12 object-contain" />
-            <img src="/logos/sap.png" alt="SAP Logo" className="h-12 object-contain" />
-            <img src="/logos/siemens.png" alt="Siemens Logo" className="h-12 object-contain" />
-          </div>
+        {/* Logo-Strip zentriert darunter */}
+        <div className="flex justify-center items-center gap-25 mt-40">
+          <img src="/logos/bmw.png" alt="BMW" className="h-12 w-auto object-contain" />
+          <img src="/logos/bosch.png" alt="Bosch" className="h-12 w-auto object-contain" />
+          <img src="/logos/db.png" alt="DB" className="h-12 w-auto object-contain" />
+          <img src="/logos/lufthansa.png" alt="Lufthansa" className="h-12 w-auto object-contain" />
+          <img src="/logos/sap.png" alt="SAP" className="h-12 w-auto object-contain" />
+          <img src="/logos/siemens.png" alt="Siemens" className="h-12 w-auto object-contain" />
         </div>
       </div>
     </section>

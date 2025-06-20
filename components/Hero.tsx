@@ -3,7 +3,7 @@ import Reveal from "./Reveal";
 
 export default function Hero() {
   return (
-    <section className="relative bg-[#ffff] w-full h-screen overflow-hidden py-40 px-6 md:px-12">
+    <section className="relative bg-[#ffff] w-full h-screen overflow-hidden pt-70 px-6 md:px-12">
         <video
           autoPlay
           muted

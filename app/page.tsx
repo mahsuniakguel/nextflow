@@ -1,9 +1,10 @@
 import Navbar from '@/components/Navbar'
 import Hero from '@/components/Hero'
 import Intelligence from '@/components/Intelligence'
-import Features from '@/components/Features'
+import Schulung from '@/components/Schulung'
 import Footer from '@/components/Footer'
-
+import Beratung from '@/components/Beratung'
+import Workflows from '@/components/Workflows'
 
 
 export default function Home() {
@@ -12,7 +13,9 @@ export default function Home() {
         <Navbar />
         <Hero />
         <Intelligence />
-        <Features />
+        <Schulung />
+        <Beratung />
+        <Workflows />
         <Footer />
     </main>
   )
